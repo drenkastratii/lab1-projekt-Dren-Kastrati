@@ -134,3 +134,69 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+
+# REACT
+# React specific
+/build
+/dist
+
+# Vite specific (if using Vite)
+vite.svg
+
+# Storybook
+.storybook-out
+storybook-static
+
+# Turbo / monorepo tools
+.turbo
+
+# Expo / React Native (only if relevant)
+.expo/
+.expo-shared/
+
+# Testing (extra)
+jest-cache/
+jest-results/
+
+# Local Netlify / Vercel
+.netlify
+.vercel
+
+# Mac / Windows junk (extra safety)
+.DS_Store?
+._*
+ehthumbs.db
+Icon?
+desktop.ini
+
+# IDE extras
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc temp files
+tmp/
+temp/
+*.tmp
+
+# Logs (extra edge cases)
+logs/
+*.log.*
+
+# Environment (override files sometimes forgotten)
+.env.*.local
+
+# SSL / certs (important for backend integrations)
+*.key
+*.crt
+
+# Database files (if local dev)
+*.sqlite
+*.db
+
+# Backup files
+*.bak
+*.swp
+*.swo
